@@ -12,7 +12,7 @@ if (! function_exists('vite_tags')) {
      *
      * @throws \Exception
      */
-    function vite_tags($manifestDirectory = '', $port = 3000)
+    function vite_tags($manifestDirectory = '', $port = 5173)
     {
         return app(Vite::class)($manifestDirectory, $port);
     }
